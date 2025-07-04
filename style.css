@@ -652,3 +652,65 @@ span {
 .project-box .btn {
     margin-top: 1rem;
 }
+
+
+#certificates {
+  font-size: 2rem;
+  padding: 15px;
+  background-color: #232323;
+  margin: 20px auto;
+ 
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.certificate:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--main-color);
+}
+
+#certificates h1 {
+  font-size: 8rem;
+  text-align: center;
+  margin-bottom: 25px;
+  
+  
+}
+
+.certificate {
+  margin-bottom: 30px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: fit-content;
+  background-color: #eaf6ff;
+  border-radius: 19px;
+  text-align: left;
+  
+}
+
+.certificate h3 {
+  color: #0c0202;
+  margin-bottom: 10px;
+}
+
+.certificate p {
+  color: #0c0202;
+  font-weight: bold;
+}
+
+
+.certificate ul {
+  margin: 10px 0;
+  padding-left: 20px;
+  color: #0c0202;
+}
+
+.certificate a {
+  color: #0262a7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.certificate a:hover {
+  text-decoration: underline;
+}
